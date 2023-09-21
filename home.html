@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Hy solution</title>
+</head>
+<body>
+  <header>
+    
+    <nav class="navbar">
+        <img class="logo" src="logo.jpg">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </nav>
+  </header>
+  <div class="cursor"></div>
+  <section  id="hero" class="hero">
+    
+    
+    <div class="hero-content">
+      
+      <h1>HYsolution for Developer</h1>
+      <p>Fast and Speedy Service.</p>
+      <a class="register-button" href="#service">Get Started</a>
+    </div>
+  </section>
+  
+  <section id="service" class="service">
+    <h2>Our Services</h2>
+    <div class="feature-card">
+      <img src="content1.jpg" id="animated-photo1" />
+      <div>
+      <a href="App link.html">Mobile App Development</a></div>
+      <p>Break down the specific services you offer, such as:</p>
+        <ul>
+  <li>iOS app development.</li>
+  <li>Android app development.</li>
+  <li>Cross-platform app development.</li>
+  <li>UI/UX design.</li>
+  <li>App testing and quality assurance.</li>
+  <li>App maintenance and updates.</li>
+</ul> 
+
+    </div>
+    <div class="feature-card">
+      <img src="content2.jpg" id="animated-photo1" />
+      <div>
+      <a href="web link.html">Web Development</a>
+    </div>
+      <p>Web development services you provide, such as:</p>
+  <ul>
+  <li>Custom website design and development.</li>
+  <li>E-commerce website development.</li>
+  <li>Content management system.</li>
+  <li>Mobile-responsive design.</li>
+  <li>Website maintenance and support.</li>
+  <li>SEO optimization and digital marketing.</li>
+</ul> 
+
+    </div>
+     
+
+  </section>
+  
+  <section id="team" class="team">
+    <h2>Our Team</h2>
+    <div class="team-member">
+      <img src="hari3.jpg" alt="Team Member 1">
+      
+      <h3>Hari Prasath C(1SB20CS034)</h3>
+      <p> CEO</p>
+    </div>
+    <div class="team-member">
+      <img src="Yashwanth.jpg" alt="an old car">
+      <h3>K Yashwanth(1SB20CS047)</h3>
+      <p>Developer</p>
+    </div>
+    <div class="team-member">
+      <img src="harish2.jpg" alt="Team Member 3">
+      <h3>Harish M(1SB20CS037)</h3>
+      <p>Marketing Manager</p>
+    </div>
+    <div class="team-member">
+      <img src="gou1.jpg" alt="Team Member 4">
+      <h3>Goutham M(1SB20CS032)</h3>
+      <p>Manager</p>
+    </div>
+    
+    </div>
+  </section>
+  
+ 
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+    <p>Get in touch with our team to learn more about our product.</p>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required id="name">
+      <input type="email" name="email" placeholder="Your Email" required id="email">
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <div onmousedown="mDown(this)" onmouseup="mUp(this)">
+      <input type="submit" value="submit" onclick="formdata()"/>"Send Message "</div>
+    </form>
+  </section>
+  
+  <footer>
+    <div class="info">
+      <p>Email: project438@gmail.com</p>
+      <p>Phone: +91 8073195815</p>
+      <p>Follow us on <a href="https://www.twitter.com/elonmusk" target="_blank">Twitter</a> and <a href="" target="_blank">LinkedIn</a></p>
+      <p>&copy; HY SOLUTION 2023</p>
+    </div>
+    
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    function mDown(obj) {
+      obj.style.backgroundColor = "#1ec5e5";
+      obj.innerHTML = "Thank You for vist";
+    }
+    
+    function mUp(obj) {
+      obj.style.backgroundColor="#D94A38";
+      obj.innerHTML="Come Again";
+    }
+    </script>
+ 
+</body>
+</html>
